@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(ls -lh D:/git/pessoal/github/mba-cyber-private/*.md)",
+      "Bash(grep -r \"base.*image\\\\|Docker\\\\|container.*layer\\\\|system.*package\" D:/git/pessoal/github/mba-cyber-private/*.md)",
+      "Bash(wc -l *.md)",
+      "Bash(for f:*)",
+      "Bash(do basename:*)",
+      "Bash(done)",
+      "WebSearch",
+      "WebFetch(domain:www.cs.montana.edu)",
+      "WebFetch(domain:mesopotamian.press)",
+      "WebFetch(domain:dl.acm.org)",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "WebFetch(domain:ieeexplore.ieee.org)",
+      "WebFetch(domain:www.diva-portal.org)",
+      "Bash(pip show:*)",
+      "Bash(ls -1 \"D:/git/pessoal/github/mba-cyber-private/\"*.md)",
+      "Bash(docling --help)",
+      "Bash(python3 -c \":*)",
+      "Bash(docling --to md:*)",
+      "Bash(ls -la \"D:/git/pessoal/github/mba-cyber-private/papers/\"*.md)",
+      "Bash(ls \"D:/git/pessoal/github/mba-cyber-private/papers/anasuri_2024_ml-vulnerability\"*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(curl -L -o boles_2024_docker-image-security.pdf \"https://www.cs.montana.edu/izurieta/pubs/SCAM2024.pdf\")",
+      "Bash(curl -L --ssl-no-revoke -o boles_2024_docker-image-security.pdf \"https://www.cs.montana.edu/izurieta/pubs/SCAM2024.pdf\")"
+    ]
+  }
+}
