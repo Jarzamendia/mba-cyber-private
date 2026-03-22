@@ -35,3 +35,15 @@ Tabela com etapas nas linhas e semanas nas colunas. Use "X" para marcar as seman
 > Ajuste as semanas conforme suas datas reais e cole abaixo:
 
 
+| Etapas | Sem 1 | Sem 2 | Sem 3 | Sem 4 | Sem 5 |
+|---|---|---|---|---|---|
+
+|Escolha do tema|X|||
+|Pesquisa bibliográfica|X|X||
+|Etapa 1_Elaboração do projeto de pesquisa e postagem no AVA||X||
+|Devolutiva do tutor-orientador|||X|
+|Etapa 2_Primeira versão do artigo: redação||X|X|X|
+|Postagem no AVA do artigo estruturado|||X|X|
+|Devolutiva do tutor orientador||||X|
+|Etapa 3_Elaboração da versão final do artigo||||X|X|
+|Postagem, no AVA, do artigo científico (TCC) finalizado|||||X|

@@ -26,7 +26,7 @@ Ao final, inclua também a **hipótese** do trabalho.
 
 ---
 
-## Justificatica
+## Justificativa
 
 Com o rápido crescimento do ecossistema de criação de softwares de código aberto e comerciais e de suas bases de usuário, o mundo tem visto um incrível aumento na escala da criação e uso de cadeias de suprimento de software (SONATYPE, 2026), isto é dependências de software reutilizáveis que são usadas diariamente por equipes de engenharia de software do mundo todo.
 
@@ -34,6 +34,6 @@ Casos como o backdoor do xz utils (LINS et al., 2024) e do event-stream (ARVANIT
 
 Com o amplo uso de softwares de código aberto ao longo de todo o ciclo de vida de desenvolvimento de software (LADISA et al., 2023), garantir que nenhuma das dependências usadas esteja comprometida se tornou um trabalho árduo e custoso. Muitas vezes as equipes não têm mãos suficientes para tal demanda ou mesmo acabam negligenciando etapas críticas, como boas práticas de cibersegurança.
 
-Em resposta a esse cenário catastrófico, iniciativas como os softwares de código aberto Trivy, Grype e Clair tentam mitigar os riscos envolvendo cadeias de suprimento de software através de scanners automatizados de imagens Docker, sistemas de arquivos e listas de materiais de software (SBOM). Esses softwares podem atuar tanto no ciclo de desenvolvimento quanto em esteiras de entrega contínua (CD).
+Em resposta a esse cenário, ferramentas de código aberto como Trivy, Grype e Clair buscam mitigar os riscos envolvendo cadeias de suprimento de software através de scanners automatizados de imagens Docker, sistemas de arquivos e listas de materiais de software (SBOM). Essas ferramentas podem atuar tanto no ciclo de desenvolvimento quanto em esteiras de entrega contínua (CD).
 
-Este trabalho pretende demonstrar que a integração de scanners de vulnerabilidades em pipelines de integração contínua permite detectar vulnerabilidades conhecidas em imagens de container Docker antes da publicação em produção. Para tanto, serão analisadas métricas como velocidade de execução, cobertura de verificação e taxa de falsos positivos e negativos dos scanners, além de literatura acadêmica publicada, a fim de identificar qual é o scanner mais adequado nessa pipeline.
+**Hipótese:** A integração de scanners de vulnerabilidades em pipelines de integração contínua permite detectar vulnerabilidades conhecidas em imagens de container Docker antes da publicação em produção. Para tanto, serão analisadas métricas como velocidade de execução, cobertura de verificação e taxa de falsos positivos e negativos dos scanners, além de literatura acadêmica publicada, a fim de propor critérios que orientem a escolha da ferramenta mais adequada para diferentes contextos organizacionais.

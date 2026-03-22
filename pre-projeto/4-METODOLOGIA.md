@@ -44,5 +44,11 @@ A metodologia descreve **como** você vai realizar a pesquisa. Deve deixar claro
 ---
 
 > Escreva seu rascunho abaixo:
+Esta pesquisa é de natureza exploratória e qualitativa, com abordagem mista, combinando revisão bibliográfica e testes práticos com ferramentas de código aberto. Propõe-se a busca empírica de literatura em agregadores e periódicos de relevância na área, incluindo informes de mercado como Sonatype e CNCF. As bases de dados a serem consultadas são: IEEE Xplore, ACM Digital Library, arXiv, Google Scholar. Os termos de busca a serem utilizados são: "Software Supply Chain", "Container Security", "Vulnerability Scanning", "DevSecOps", "Shift Left Security", "Docker Security", "Container Vulnerability Scanning", "Trivy", "Grype" e "Clair".
 
+Para artigos que tratem sobre definições e conceitos, serão utilizados trabalhos mais antigos para fundamentar o estudo. Os critérios de inclusão adotados são: artigos publicados entre 2021 e 2026, em inglês ou português, com foco em segurança de containers ou cadeia de suprimentos de software. Os critérios de exclusão são: artigos sem revisão por pares (exceto relatórios de mercado relevantes como Sonatype e CNCF) e trabalhos focados exclusivamente em segurança de runtime.
+
+Os testes práticos serão realizados em um ambiente que simula um pipeline CI/CD na plataforma GitHub Actions, utilizando imagens Docker públicas com vulnerabilidades conhecidas disponíveis no Docker Hub e em repositórios públicos oficiais. As ferramentas avaliadas serão Trivy, Grype e Clair. As métricas de comparação incluirão cobertura de CVEs detectadas, taxa de falsos positivos/negativos, tempo de execução do escaneamento, facilidade de integração com CI/CD. 
+
+A análise bibliográfica e os testes práticos serão utilizados para a proposta de critérios de seleção de ferramentas de escaneamento de vulnerabilidades em imagens Docker no contexto de shift-left security, na análise dos vetores de ataque, na comparação de ferramentas e na elaboração de recomendações práticas para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais.
 

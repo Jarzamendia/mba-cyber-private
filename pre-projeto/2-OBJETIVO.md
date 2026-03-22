@@ -47,7 +47,7 @@ Propor critérios para a escolha de ferramentas de escaneamento de vulnerabilida
 
 ### Objetivos Específicos
 
-Analisar os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
-Comparar ferramentas de escaneamento de vulnerabilidades em imagens Docker quanto a critérios como cobertura de CVEs, integração com CI, desempenho, entre outros critérios.
-Executar testes práticos para a escolha de ferramentas de escaneamento na detecção de falhas de segurança em pipelines de CI/CD.
-Elaborar recomendações práticas para a adoção   de ferramentas de escaneamento considerando diferentes perfis organizacionais.
+a) Analisar os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
+b) Comparar ferramentas de escaneamento de vulnerabilidades em imagens Docker quanto a critérios como cobertura de CVEs, integração com CI, desempenho, entre outros critérios.
+c) Executar testes práticos para avaliação das ferramentas de escaneamento na detecção de falhas de segurança em pipelines de CI/CD.
+d) Elaborar recomendações práticas para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais.
