@@ -1,38 +1,40 @@
 ---
 name: Progresso do pré-projeto
-description: Decisões tomadas para o pré-projeto do TCC - título, problema, objetivos, estrutura da justificativa
+description: Estado atual do pré-projeto após pivot para revisão bibliográfica pura (2026-04-15)
 type: project
 ---
 
-## Título definido
-"Análise e Implementação de Verificações Automatizadas de Segurança em Imagens Docker no Ciclo de Desenvolvimento"
-- Intencionalmente não menciona CI/CD para cobrir tanto pipeline quanto desenvolvimento local.
+## Título atual (definido pelo orientador, 2026-04-15)
+**"Shift-Left Security: Detecção de Vulnerabilidades em Docker Imagens"**
 
-## Problema de pesquisa
-"Como uma organização pode precaver-se contra ataques de cadeia de fornecimento de software em imagens Docker através do uso de práticas de shift-left e automatização de detecção de vulnerabilidades no ciclo de desenvolvimento?"
+⚠️ "Docker Imagens" é anglicismo; o correto em português seria "Imagens Docker". João foi avisado e deve confirmar com o orientador.
 
-## Objetivo geral
-Analisar o uso de scanners de verificação automatizadas de vulnerabilidades em imagens Docker durante o ciclo de desenvolvimento de software para mitigar ataques de cadeia de fornecimento de software.
+## Tipo de pesquisa
+**Revisão bibliográfica pura.** Testes práticos foram removidos por decisão do orientador + alinhamento ao template institucional.
 
-## Objetivos específicos
-1. Identificar o estado da arte em verificação automatizada de vulnerabilidades em imagens Docker
-2. Comparar os principais scanners de vulnerabilidade com base em: tempo de execução, taxa de detecção e falsos positivos
-3. Propor e implementar os pipelines automatizados em ambiente de integração contínua
-4. Avaliar os resultados e definir qual é o modelo mais adequado com base nos critérios definidos
+## Problema de pesquisa (reformulado)
+"O que a literatura científica publicada entre 2020 e 2026 evidencia sobre a detecção de vulnerabilidades em imagens Docker no contexto de shift-left security e sobre os critérios que devem orientar a escolha de ferramentas automatizadas de escaneamento?"
 
-## Justificativa (estrutura acordada, João vai rascunhar)
-1. Cenário problemático - organizações não fazem scanning ou fazem pós-deploy (custo alto de correção)
-2. Risco crescente - ataques supply chain em alta, especialmente npm/Node.js (event-stream 2018, ua-parser-js 2021, colors.js 2022). Imagens Docker herdam dependências vulneráveis
-3. Limitação humana - processos manuais falham (fadiga, negligência, pular etapas)
-4. Oportunidade - ferramentas open-source + CI/CD modernas tornam automação viável sem custo adicional
-5. Hipótese - integração de scanners no ciclo de desenvolvimento (shift-left) detecta e bloqueia vulnerabilidades críticas antes da produção
+## Objetivo geral (reformulado)
+Analisar, por meio de revisão bibliográfica, o estado da arte sobre detecção de vulnerabilidades em imagens Docker no contexto de shift-left security.
 
-## Seções do pré-projeto ainda pendentes
-- Justificativa (João vai rascunhar em .md)
-- Introdução / Problematização
-- Metodologia (pesquisa aplicada, abordagem mista: revisão bibliográfica + experimental)
-- Cronograma
-- Referências (ABNT)
+## Objetivos específicos (3, após remoção do item de testes práticos)
+1. Analisar, a partir da literatura, os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
+2. Comparar, com base em estudos empíricos publicados, as ferramentas (Trivy, Grype, Clair) quanto a cobertura de CVEs, integração com CI/CD, desempenho e demais critérios reportados.
+3. Sintetizar recomendações para adoção de ferramentas conforme diferentes perfis organizacionais, com base na literatura.
 
-**Why:** Deadline do pré-projeto é 2026-03-27. Próximo passo é João escrever rascunho da justificativa.
-**How to apply:** Quando João enviar o rascunho em .md, revisar e dar feedback mantendo postura de orientador (não reescrever).
+## Status das seções
+| Seção | Arquivo | Status |
+|---|---|---|
+| Tema | TEMA.md | Desatualizado (fala de testes práticos) — avaliar se precisa atualizar ou arquivar |
+| Introdução | 1-INTRODUCAO.md | Rascrito atendendo 6 pontos do orientador |
+| Justificativa | 0-JUSTIFICATIVA.md | Reescrita atendendo 5 pontos; hipótese reformulada |
+| Objetivos | 2-OBJETIVO.md | Atualizado (1 geral + 3 específicos) |
+| Metodologia | 4-METODOLOGIA.md | Reescrita completa (revisão bibliográfica, 9 pontos) |
+| Cronograma | 5-CRONOGRAMA.md | Etapa 2 ajustada (sem testes práticos) |
+| Referências | 999 - BIBLIOGRAFICA.md | 17 refs ABNT, mantido |
+| Referencial Teórico | 3-REFERENCIAL-TEORICO.md | Removido do pré-projeto; aviso inserido no topo; conteúdo preservado para o TCC |
+
+**Why:** Orientador enviou em 2026-04-15 novo título + rubricas detalhadas (6 pontos intro, 5 pontos justificativa, 9 pontos metodologia) + pediu remoção do objetivo específico de testes práticos.
+
+**How to apply:** João pediu explicitamente para executar as mudanças (override da regra de "não escrever o texto"). Próximo passo é ele revisar os arquivos e enviar ao orientador.

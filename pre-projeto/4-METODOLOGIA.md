@@ -1,54 +1,31 @@
-# Metodologia - Roteiro
+# Metodologia
 
 ## Objetivo desta seção
-A metodologia descreve **como** você vai realizar a pesquisa. Deve deixar claro o tipo de pesquisa, as fontes utilizadas, os critérios de seleção da literatura e, no seu caso, como serão conduzidos os testes práticos com as ferramentas.
+A metodologia descreve **como** a pesquisa será conduzida. Conforme o template institucional e as orientações do tutor-orientador, esta pesquisa caracteriza-se como uma **revisão bibliográfica**, devendo contemplar: tipo de pesquisa, bases consultadas e justificativa da escolha, período considerado e sua justificativa, critérios de inclusão/exclusão, processo de triagem e método de análise.
 
-## Regras de escrita
-- Linguagem impessoal e formal.
-- Seja específico: não basta dizer "foi feita uma pesquisa bibliográfica" — diga **onde**, **com quais termos**, **quais critérios de inclusão/exclusão**.
-- Conecte cada etapa metodológica a um objetivo específico.
-- 2 a 4 parágrafos são suficientes para o pré-projeto.
-
-## Estrutura sugerida (3 parágrafos)
-
-### Parágrafo 1 — Tipo de pesquisa e revisão bibliográfica
-- Classificação: pesquisa exploratória de natureza qualitativa, com abordagem mista (revisão bibliográfica + testes práticos).
-- Bases de pesquisa utilizadas: IEEE Xplore, ACM Digital Library, arXiv, Google Scholar.
-- Termos de busca: "software supply chain security", "Docker image vulnerability scanning", "container security tools", "shift-left security", "Trivy", "Grype", "Clair".
-- Critérios de inclusão: artigos publicados entre 2020 e 2026, em inglês ou português, com foco em segurança de containers ou cadeia de suprimentos de software.
-- Critérios de exclusão: artigos sem revisão por pares (exceto relatórios de mercado relevantes como Sonatype e CNCF), trabalhos focados exclusivamente em segurança de runtime (não estática).
-- **Conexão**: fundamenta os objetivos específicos 1 (vetores de ataque) e 2 (comparação de ferramentas).
-
-### Parágrafo 2 — Testes práticos (experimental)
-- Descreva o ambiente de teste: pipeline CI/CD (ex: GitHub Actions ou GitLab CI).
-- Ferramentas avaliadas: Trivy, Grype e Clair.
-- Conjunto de imagens de teste: selecionar imagens Docker públicas com vulnerabilidades conhecidas (ex: imagens oficiais antigas, imagens do projeto Vulhub ou similares).
-- Métricas de comparação:
-  - Cobertura de CVEs detectadas
-  - Taxa de falsos positivos / falsos negativos
-  - Tempo de execução do escaneamento
-  - Facilidade de integração com CI/CD
-  - Bases de dados de vulnerabilidades utilizadas
-- **Conexão**: fundamenta o objetivo específico 3 (testes práticos).
-
-### Parágrafo 3 — Síntese e proposição de critérios
-- A partir da revisão bibliográfica e dos resultados dos testes práticos, serão elaborados critérios de seleção.
-- Os critérios considerarão tanto os dados quantitativos (métricas dos testes) quanto fatores qualitativos encontrados na literatura (maturidade, comunidade, suporte).
-- **Conexão**: fundamenta o objetivo específico 4 (recomendações práticas).
-
-## Dicas
-- Lembre-se de que a metodologia do pré-projeto é uma **proposta** — você ainda não executou. Use verbos no futuro ou no infinitivo ("serão analisadas", "pretende-se comparar").
-- Os testes práticos diferenciam seu trabalho de uma revisão puramente bibliográfica.
-- A tabela do cronograma (seção 6) deve refletir as etapas descritas aqui.
+## Pontos obrigatórios (orientação do tutor)
+1. Especificar que se trata de uma revisão bibliográfica.
+2. Citar bases de dados, repositórios e bibliotecas consultadas.
+3. Justificar a escolha dessas fontes.
+4. Determinar o intervalo de tempo dos estudos.
+5. Justificar a escolha do período.
+6. Incluir parâmetros de idioma, tipo de publicação e relevância temática.
+7. Descrever a condução da triagem dos estudos.
+8. Detalhar as etapas (leitura de títulos, resumos, textos completos).
+9. Descrever os critérios usados para analisar e interpretar as informações.
 
 ---
 
-> Escreva seu rascunho abaixo:
-Esta pesquisa é de natureza exploratória e qualitativa, com abordagem mista, combinando revisão bibliográfica e testes práticos com ferramentas de código aberto. Propõe-se a busca empírica de literatura em agregadores e periódicos de relevância na área, incluindo informes de mercado como Sonatype e CNCF. As bases de dados a serem consultadas são: IEEE Xplore, ACM Digital Library, arXiv, Google Scholar. Os termos de busca a serem utilizados são: "Software Supply Chain", "Container Security", "Vulnerability Scanning", "DevSecOps", "Shift Left Security", "Docker Security", "Container Vulnerability Scanning", "Trivy", "Grype" e "Clair".
+## Metodologia
 
-Para artigos que tratem sobre definições e conceitos, serão utilizados trabalhos mais antigos para fundamentar o estudo. Os critérios de inclusão adotados são: artigos publicados entre 2021 e 2026, em inglês ou português, com foco em segurança de containers ou cadeia de suprimentos de software. Os critérios de exclusão são: artigos sem revisão por pares (exceto relatórios de mercado relevantes como Sonatype e CNCF) e trabalhos focados exclusivamente em segurança de runtime.
+Esta pesquisa caracteriza-se como uma **revisão bibliográfica** de natureza qualitativa e caráter exploratório, cujo objetivo é analisar o estado da arte sobre a detecção de vulnerabilidades em imagens Docker no contexto de shift-left security. Optou-se por esse método por permitir sistematizar o conhecimento publicado, identificar convergências e lacunas entre estudos empíricos e consolidar evidências que fundamentem recomendações para a adoção de ferramentas de escaneamento.
 
-Os testes práticos serão realizados em um ambiente que simula um pipeline CI/CD na plataforma GitHub Actions, utilizando imagens Docker públicas com vulnerabilidades conhecidas disponíveis no Docker Hub e em repositórios públicos oficiais. As ferramentas avaliadas serão Trivy, Grype e Clair. As métricas de comparação incluirão cobertura de CVEs detectadas, taxa de falsos positivos/negativos, tempo de execução do escaneamento, facilidade de integração com CI/CD. 
+O levantamento bibliográfico foi conduzido nas bases de dados **IEEE Xplore**, **ACM Digital Library**, **arXiv** e **Google Scholar**, escolhidas por reunirem, de forma complementar, a produção científica mais relevante nas áreas de segurança da informação, engenharia de software e computação em nuvem. IEEE Xplore e ACM Digital Library foram selecionadas por sua abrangência em periódicos e conferências revisados por pares; arXiv, por oferecer acesso a resultados recentes em fase de pré-publicação; e Google Scholar, por sua amplitude e capacidade de localizar relatórios técnicos e dissertações relevantes. De forma complementar, foram considerados relatórios de mercado reconhecidos — como os publicados por Sonatype e pela Cloud Native Computing Foundation (CNCF) —, por trazerem dados quantitativos sobre adoção de containers e crescimento da cadeia de suprimentos de software, informações que raramente aparecem em publicações acadêmicas.
 
-A análise bibliográfica e os testes práticos serão utilizados para a proposta de critérios de seleção de ferramentas de escaneamento de vulnerabilidades em imagens Docker no contexto de shift-left security, na análise dos vetores de ataque, na comparação de ferramentas e na elaboração de recomendações práticas para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais.
+Os termos de busca utilizados, combinados por operadores booleanos, foram: *"software supply chain security"*, *"Docker image vulnerability scanning"*, *"container security"*, *"shift-left security"*, *"DevSecOps"*, *"Trivy"*, *"Grype"* e *"Clair"*. Adotou-se como recorte temporal o período **de 2020 a 2026**, justificado pelo crescimento exponencial dos ataques à cadeia de suprimentos de software observado desde 2020 (WILLIAMS; HAMER; ZAHAN, 2024) e pela consolidação, nesse intervalo, das ferramentas de escaneamento estudadas. Obras clássicas anteriores a 2020 foram admitidas excepcionalmente quando necessárias à fundamentação de conceitos estruturantes.
 
+Foram estabelecidos como **critérios de inclusão**: publicações em português ou inglês; artigos científicos, dissertações, teses ou relatórios técnicos de instituições reconhecidas; trabalhos com foco em segurança de containers, imagens Docker ou cadeia de suprimentos de software. Como **critérios de exclusão**: trabalhos sem revisão por pares (exceto relatórios de mercado de reconhecida credibilidade, como Sonatype e CNCF); estudos dedicados exclusivamente à segurança de runtime de containers, sem tratar de análise estática; e trabalhos duplicados.
+
+A triagem dos estudos foi conduzida em três etapas sucessivas: (i) leitura de títulos e descarte dos claramente fora de escopo; (ii) leitura de resumos para avaliação de aderência temática; (iii) leitura integral dos estudos selecionados, com extração de dados estruturada. Para cada estudo incluído, foram registrados: autor e ano, objetivo, método, ferramentas analisadas, métricas reportadas e principais conclusões.
+
+A análise e interpretação das informações seguiu abordagem **qualitativa-comparativa**, organizando os achados em três eixos temáticos alinhados aos objetivos específicos: (a) vetores de ataque à cadeia de suprimentos de software em imagens Docker; (b) comparação entre ferramentas de escaneamento quanto a cobertura de CVEs, integração com CI/CD e desempenho, a partir dos resultados empíricos reportados pelos autores revisados; e (c) consolidação de recomendações para adoção de ferramentas em diferentes perfis organizacionais. A síntese foi realizada por meio da identificação de convergências, divergências e lacunas entre os estudos, permitindo uma leitura integrada do corpus analisado.

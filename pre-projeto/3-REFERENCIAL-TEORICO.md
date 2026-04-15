@@ -1,5 +1,7 @@
 # Referencial Teórico - Roteiro
 
+> ⚠️ **AVISO (2026-04-15):** Esta seção **não faz parte do pré-projeto**, conforme template institucional (`documentacao/template-pre-projeto.pdf`) e orientação recebida. O conteúdo é preservado aqui como insumo para o **TCC final**, onde o referencial teórico é obrigatório. **Não incluir no documento de pré-projeto entregue no AVA.**
+
 ## Objetivo desta seção
 O referencial teórico apresenta os conceitos, definições e trabalhos existentes que fundamentam a pesquisa. É onde você mostra ao leitor que domina o tema e que seu trabalho se apoia em uma base sólida. No pré-projeto, não precisa ser exaustivo — mas deve cobrir os pilares do trabalho e mostrar que você já tem leituras relevantes.
 

@@ -43,11 +43,10 @@ Sugestões de eixos para seus objetivos específicos (escolha e adapte):
 
 ### Objetivo Geral
 
-Propor critérios para a escolha de ferramentas de escaneamento de vulnerabilidades em imagens Docker no contexto de shift-left security.
+Analisar, por meio de revisão bibliográfica, o estado da arte sobre detecção de vulnerabilidades em imagens Docker no contexto de shift-left security.
 
 ### Objetivos Específicos
 
-a) Analisar os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
-b) Comparar ferramentas de escaneamento de vulnerabilidades em imagens Docker quanto a critérios como cobertura de CVEs, integração com CI, desempenho, entre outros critérios.
-c) Executar testes práticos para avaliação das ferramentas de escaneamento na detecção de falhas de segurança em pipelines de CI/CD.
-d) Elaborar recomendações práticas para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais.
+a) Analisar, a partir da literatura, os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
+b) Comparar, com base em estudos empíricos publicados, as ferramentas de escaneamento de vulnerabilidades em imagens Docker (como Trivy, Grype e Clair) quanto a cobertura de CVEs, integração com CI/CD, desempenho e demais critérios reportados.
+c) Sintetizar recomendações para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais, com base nas evidências encontradas na literatura revisada.

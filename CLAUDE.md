@@ -14,23 +14,27 @@ O índice está em `.claude/memory/MEMORY.md`.
 
 ## O TCC
 
-### Título
-**Critérios para a Escolha de Ferramentas de Escaneamento de Vulnerabilidades em Imagens Docker no Contexto de Shift-Left Security**
+### Título (atualizado 2026-04-15 pelo orientador)
+**Shift-Left Security: Detecção de Vulnerabilidades em Docker Imagens**
 
-### Pergunta de pesquisa
-> Como organizações podem escolher de maneira consciente quais ferramentas usar em seu ciclo de desenvolvimento para mitigar os riscos de ataques à cadeia de suprimentos de software em imagens Docker usando shift-left e ferramentas automatizadas de escaneamento de imagens?
+> ⚠️ Nota: "Docker Imagens" é o termo literal proposto pelo orientador. Em português ABNT o natural seria "Imagens Docker" — confirmar na próxima devolutiva.
+
+### Tipo de pesquisa
+**Revisão bibliográfica pura** (decisão do orientador, 2026-04-15). Testes práticos foram removidos do escopo.
+
+### Problema de pesquisa
+> O que a literatura científica publicada entre 2020 e 2026 evidencia sobre a detecção de vulnerabilidades em imagens Docker no contexto de shift-left security e sobre os critérios que devem orientar a escolha de ferramentas automatizadas de escaneamento?
 
 ### Objetivo geral
-Propor critérios para a escolha de ferramentas de escaneamento de vulnerabilidades em imagens Docker no contexto de shift-left security.
+Analisar, por meio de revisão bibliográfica, o estado da arte sobre detecção de vulnerabilidades em imagens Docker no contexto de shift-left security.
 
-### Objetivos específicos
-1. Analisar os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
-2. Comparar ferramentas de escaneamento (Trivy, Grype, Clair) quanto a cobertura de CVEs, integração com CI, desempenho, entre outros critérios.
-3. Executar testes práticos para a escolha de ferramentas de escaneamento na detecção de falhas de segurança em pipelines de CI/CD.
-4. Elaborar recomendações práticas para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais.
+### Objetivos específicos (3, após remoção do item de testes práticos)
+1. Analisar, a partir da literatura, os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
+2. Comparar, com base em estudos empíricos publicados, as ferramentas de escaneamento (Trivy, Grype, Clair) quanto a cobertura de CVEs, integração com CI/CD, desempenho e demais critérios reportados.
+3. Sintetizar recomendações para a adoção de ferramentas considerando diferentes perfis organizacionais, com base nas evidências da literatura.
 
 ### Hipótese
-A integração de scanners de vulnerabilidades em pipelines de integração contínua permite detectar vulnerabilidades conhecidas em imagens Docker antes da publicação em produção.
+A literatura científica publicada entre 2020 e 2026 oferece evidências suficientes para caracterizar divergências de desempenho, cobertura e integração entre as principais ferramentas de escaneamento de vulnerabilidades em imagens Docker, permitindo consolidar critérios que orientem a escolha dessas ferramentas conforme o perfil organizacional no contexto de shift-left security.
 
 ---
 
@@ -44,12 +48,12 @@ Segue o template institucional (`documentacao/template-pre-projeto.pdf`). A orde
 | 2 | Introdução – Problematização | `pre-projeto/1-INTRODUCAO.md` | Pronto |
 | 3 | Justificativa | `pre-projeto/0-JUSTIFICATIVA.md` | Pronto |
 | 4 | Objetivos (Geral + Específicos) | `pre-projeto/2-OBJETIVO.md` | Pronto |
-| 5 | Metodologia | `pre-projeto/4-METODOLOGIA.md` | Roteiro criado, falta rascunho |
-| 6 | Cronograma | `pre-projeto/5-CRONOGRAMA.md` | Roteiro criado, falta rascunho |
+| 5 | Metodologia | `pre-projeto/4-METODOLOGIA.md` | Pronto (revisão bibliográfica, 9 pontos do orientador) |
+| 6 | Cronograma | `pre-projeto/5-CRONOGRAMA.md` | Pronto (sem testes práticos) |
 | 7 | Referências | `pre-projeto/999 - BIBLIOGRAFICA.md` | Pronto (17 refs ABNT) |
-| — | Referencial Teórico (extra) | `pre-projeto/3-REFERENCIAL-TEORICO.md` | Pronto (5 subseções), não é obrigatório no pré-projeto |
+| — | Referencial Teórico | `pre-projeto/3-REFERENCIAL-TEORICO.md` | **Removido do pré-projeto** — conteúdo preservado para o TCC |
 
-**Nota:** O Referencial Teórico (seção 3) não consta no template do pré-projeto, mas foi incluído para demonstrar maturidade da pesquisa. Avaliar com o orientador se deve ser mantido ou removido na entrega.
+**Decisão do orientador (2026-04-15):** Referencial Teórico **não** será incluído no pré-projeto (não consta no template). O conteúdo fica preservado no arquivo, com aviso, para reuso no TCC final.
 
 ---
 

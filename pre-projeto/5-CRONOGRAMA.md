@@ -13,7 +13,7 @@ Tabela com etapas nas linhas e semanas nas colunas. Use "X" para marcar as seman
 | Escolha do tema e pesquisa bibliográfica | X | X | | | |
 | **Etapa 1** — Elaboração do pré-projeto e postagem no AVA | X | X | | | |
 | Devolutiva do tutor-orientador | | | X | | |
-| **Etapa 2** — Redação do artigo: revisão bibliográfica e testes práticos | | X | X | X | |
+| **Etapa 2** — Redação do artigo: revisão bibliográfica (triagem, leitura integral e síntese) | | X | X | X | |
 | Postagem no AVA do artigo estruturado | | | | X | |
 | Devolutiva do tutor-orientador | | | | X | |
 | **Etapa 3** — Elaboração da versão final do artigo | | | | X | X |
@@ -22,7 +22,7 @@ Tabela com etapas nas linhas e semanas nas colunas. Use "X" para marcar as seman
 ## Notas
 - Este cronograma segue exatamente o modelo do template institucional.
 - As semanas devem ser ajustadas conforme as datas reais do AVA.
-- A Etapa 2 é a mais longa pois inclui tanto a revisão da literatura quanto a execução dos testes práticos com Trivy, Grype e Clair.
+- A Etapa 2 é a mais longa pois inclui a triagem dos estudos, leitura integral dos trabalhos selecionados e a síntese comparativa dos achados.
 - **Importante**: Verificar no AVA as datas exatas de cada entrega para ajustar as semanas.
 
 ## Dicas
