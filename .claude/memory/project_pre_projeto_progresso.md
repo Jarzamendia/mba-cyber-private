@@ -23,17 +23,19 @@ Analisar, por meio de revisão bibliográfica, o estado da arte sobre detecção
 2. Comparar, com base em estudos empíricos publicados, as ferramentas (Trivy, Grype, Clair) quanto a cobertura de CVEs, integração com CI/CD, desempenho e demais critérios reportados.
 3. Sintetizar recomendações para adoção de ferramentas conforme diferentes perfis organizacionais, com base na literatura.
 
-## Status das seções
+## Status das seções (renumerado 2026-04-16 para alinhar à ordem do template)
 | Seção | Arquivo | Status |
 |---|---|---|
 | Tema | TEMA.md | Desatualizado (fala de testes práticos) — avaliar se precisa atualizar ou arquivar |
 | Introdução | 1-INTRODUCAO.md | Rascrito atendendo 6 pontos do orientador |
-| Justificativa | 0-JUSTIFICATIVA.md | Reescrita atendendo 5 pontos; hipótese reformulada |
-| Objetivos | 2-OBJETIVO.md | Atualizado (1 geral + 3 específicos) |
+| Justificativa | 2-JUSTIFICATIVA.md | Reescrita atendendo 5 pontos; hipótese reformulada |
+| Objetivos | 3-OBJETIVOS.md | Atualizado (1 geral + 3 específicos) |
 | Metodologia | 4-METODOLOGIA.md | Reescrita completa (revisão bibliográfica, 9 pontos) |
 | Cronograma | 5-CRONOGRAMA.md | Etapa 2 ajustada (sem testes práticos) |
-| Referências | 999 - BIBLIOGRAFICA.md | 17 refs ABNT, mantido |
-| Referencial Teórico | 3-REFERENCIAL-TEORICO.md | Removido do pré-projeto; aviso inserido no topo; conteúdo preservado para o TCC |
+| Referências | 6-REFERENCIAS.md | 17 refs ABNT, mantido |
+| Referencial Teórico | _REFERENCIAL-TEORICO-TCC.md | Removido do pré-projeto; aviso no topo; preservado para o TCC (prefixo `_` indica extra) |
+
+**Arquivos descontinuados (apagados em 2026-04-16):** `PRE-PROJETO.md` (consolidado antigo com escopo de testes práticos) e `RELATORIO-CITACOES.md` (auditava o arquivo antigo; problemas já corrigidos nos arquivos novos).
 
 **Why:** Orientador enviou em 2026-04-15 novo título + rubricas detalhadas (6 pontos intro, 5 pontos justificativa, 9 pontos metodologia) + pediu remoção do objetivo específico de testes práticos.
 

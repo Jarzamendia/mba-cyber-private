@@ -46,12 +46,12 @@ Segue o template institucional (`documentacao/template-pre-projeto.pdf`). A orde
 |---|---|---|---|
 | 1 | Tema | `TEMA.md` (raiz) | Pronto |
 | 2 | Introdução – Problematização | `pre-projeto/1-INTRODUCAO.md` | Pronto |
-| 3 | Justificativa | `pre-projeto/0-JUSTIFICATIVA.md` | Pronto |
-| 4 | Objetivos (Geral + Específicos) | `pre-projeto/2-OBJETIVO.md` | Pronto |
+| 3 | Justificativa | `pre-projeto/2-JUSTIFICATIVA.md` | Pronto |
+| 4 | Objetivos (Geral + Específicos) | `pre-projeto/3-OBJETIVOS.md` | Pronto |
 | 5 | Metodologia | `pre-projeto/4-METODOLOGIA.md` | Pronto (revisão bibliográfica, 9 pontos do orientador) |
 | 6 | Cronograma | `pre-projeto/5-CRONOGRAMA.md` | Pronto (sem testes práticos) |
-| 7 | Referências | `pre-projeto/999 - BIBLIOGRAFICA.md` | Pronto (17 refs ABNT) |
-| — | Referencial Teórico | `pre-projeto/3-REFERENCIAL-TEORICO.md` | **Removido do pré-projeto** — conteúdo preservado para o TCC |
+| 7 | Referências | `pre-projeto/6-REFERENCIAS.md` | Pronto (17 refs ABNT) |
+| — | Referencial Teórico | `pre-projeto/_REFERENCIAL-TEORICO-TCC.md` | **Removido do pré-projeto** — conteúdo preservado para o TCC (prefixo `_` indica que é extra) |
 
 **Decisão do orientador (2026-04-15):** Referencial Teórico **não** será incluído no pré-projeto (não consta no template). O conteúdo fica preservado no arquivo, com aviso, para reuso no TCC final.
 
@@ -69,13 +69,13 @@ Segue o template institucional (`documentacao/template-pre-projeto.pdf`). A orde
 │   ├── guia-para-elaboracao-do-tcc.pdf
 │   └── metodologia-da-pesquisa-cientifica.pdf
 ├── pre-projeto/               # Seções do pré-projeto (markdown)
-│   ├── 0-JUSTIFICATIVA.md
 │   ├── 1-INTRODUCAO.md
-│   ├── 2-OBJETIVO.md
-│   ├── 3-REFERENCIAL-TEORICO.md
+│   ├── 2-JUSTIFICATIVA.md
+│   ├── 3-OBJETIVOS.md
 │   ├── 4-METODOLOGIA.md
 │   ├── 5-CRONOGRAMA.md
-│   └── 999 - BIBLIOGRAFICA.md
+│   ├── 6-REFERENCIAS.md
+│   └── _REFERENCIAL-TEORICO-TCC.md   # extra: preservado para o TCC final
 ├── papers/                    # PDFs e markdowns dos papers lidos
 │   ├── 00-REPORT.md           # Índice de todos os papers
 │   └── autor_ano_descricao.{pdf,md}
@@ -137,5 +137,5 @@ Exemplos: `boles_2024_docker-image-security.pdf`, `ladisa_2023_taxonomy-attacks.
 - **Orientador/mentor**: nunca escrever o texto do TCC diretamente. Criar roteiros, revisar rascunhos, corrigir ortografia, verificar citações.
 - **Exceção**: quando o João pedir explicitamente para implementar/redigir, pode fazê-lo (ele revisará depois).
 - **Citações**: sempre verificar nos papers originais se o trecho citado realmente existe.
-- **Bibliografia**: manter `999 - BIBLIOGRAFICA.md` atualizada com trechos originais em inglês.
+- **Bibliografia**: manter `pre-projeto/6-REFERENCIAS.md` atualizada com trechos originais em inglês.
 - **Formato**: ABNT para citações e referências.

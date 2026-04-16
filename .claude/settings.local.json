@@ -26,7 +26,8 @@
       "Bash(python:*)",
       "Bash(curl -L -o boles_2024_docker-image-security.pdf \"https://www.cs.montana.edu/izurieta/pubs/SCAM2024.pdf\")",
       "Bash(curl -L --ssl-no-revoke -o boles_2024_docker-image-security.pdf \"https://www.cs.montana.edu/izurieta/pubs/SCAM2024.pdf\")",
-      "Bash(pandoc --version)"
+      "Bash(pandoc --version)",
+      "WebFetch(domain:export.arxiv.org)"
     ]
   }
 }

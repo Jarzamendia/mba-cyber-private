@@ -1,5 +1,13 @@
 # Referências Bibliográficas
 
+<!--
+CONFERIR / MODIFICAR antes de entregar:
+- Verificar se todos os papers listados têm PDF em papers/ (exceto DOCKER 2025 e CNCF 2024, que são URLs oficiais).
+- Ordenar alfabeticamente na versão final (atualmente algumas entradas estão fora de ordem).
+- Ao adicionar refs da nova busca sistemática, manter o formato: referência ABNT + bloco de metadados (arquivo, citado em, trecho original).
+- WILLIAMS; MIGUES 2025 e MARTINEZ 2021 estão "disponíveis para uso futuro" — remover se não forem citadas no texto final.
+-->
+
 > Formato ABNT. Manter em ordem alfabética pelo sobrenome do primeiro autor.
 > Ao adicionar novas referências, incluir também o trecho original (em inglês) que fundamenta a citação no pré-projeto, para rápida conferência.
 

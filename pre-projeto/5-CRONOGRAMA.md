@@ -1,5 +1,12 @@
 # Cronograma - Roteiro
 
+<!--
+CONFERIR / MODIFICAR antes de entregar:
+- PREENCHER as datas reais de cada semana conforme calendário do AVA.
+- Ajustar marcações X conforme prazos reais de postagem e devolutiva.
+- A "Etapa 2" (redação do artigo) não menciona mais testes práticos — ok para o escopo revisão bibliográfica pura.
+-->
+
 ## Objetivo desta seção
 O cronograma indica a sequência de atividades e o tempo estimado para cada etapa do projeto. Segundo o template, deve respeitar o prazo máximo de entrega do artigo no AVA.
 

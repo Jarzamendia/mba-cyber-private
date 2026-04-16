@@ -1,5 +1,13 @@
 # Metodologia
 
+<!--
+CONFERIR / MODIFICAR antes de executar a busca:
+- Bases escolhidas: IEEE Xplore, ACM DL, arXiv, Google Scholar. Orientador citou Scopus e PubMed como exemplos — decidir se inclui Scopus (PubMed não cabe neste tema).
+- Recorte temporal 2020-2026: justificado pelo crescimento exponencial de ataques SSC desde 2020 (Williams; Hamer; Zahan, 2024). Confirmar.
+- Strings booleanas: revisar antes de rodar a busca. Registrar em planilha à parte (número de resultados por base, duplicatas etc.) — ainda não feito.
+- §5 (análise qualitativa-comparativa em 3 eixos): se orientador pedir mais detalhe, expandir métricas de extração (tabela por estudo).
+-->
+
 ## Objetivo desta seção
 A metodologia descreve **como** a pesquisa será conduzida. Conforme o template institucional e as orientações do tutor-orientador, esta pesquisa caracteriza-se como uma **revisão bibliográfica**, devendo contemplar: tipo de pesquisa, bases consultadas e justificativa da escolha, período considerado e sua justificativa, critérios de inclusão/exclusão, processo de triagem e método de análise.
 
@@ -18,14 +26,17 @@ A metodologia descreve **como** a pesquisa será conduzida. Conforme o template 
 
 ## Metodologia
 
-Esta pesquisa caracteriza-se como uma **revisão bibliográfica** de natureza qualitativa e caráter exploratório, cujo objetivo é analisar o estado da arte sobre a detecção de vulnerabilidades em imagens Docker no contexto de shift-left security. Optou-se por esse método por permitir sistematizar o conhecimento publicado, identificar convergências e lacunas entre estudos empíricos e consolidar evidências que fundamentem recomendações para a adoção de ferramentas de escaneamento.
+Esta pesquisa caracteriza-se como uma revisão bibliográfica cujo objetivo é analisar o estado da arte sobre Shift-left security com foco em técnicas de detecção de vulnerabilidades em imagens Docker. Optou-se por esse método por permitir sistematizar o conhecimento publicado, identificar convergências e lacunas entre estudos e consolidar evidências que fundamentem recomendações para a adoção de ferramentas de escaneamento.
 
-O levantamento bibliográfico foi conduzido nas bases de dados **IEEE Xplore**, **ACM Digital Library**, **arXiv** e **Google Scholar**, escolhidas por reunirem, de forma complementar, a produção científica mais relevante nas áreas de segurança da informação, engenharia de software e computação em nuvem. IEEE Xplore e ACM Digital Library foram selecionadas por sua abrangência em periódicos e conferências revisados por pares; arXiv, por oferecer acesso a resultados recentes em fase de pré-publicação; e Google Scholar, por sua amplitude e capacidade de localizar relatórios técnicos e dissertações relevantes. De forma complementar, foram considerados relatórios de mercado reconhecidos — como os publicados por Sonatype e pela Cloud Native Computing Foundation (CNCF) —, por trazerem dados quantitativos sobre adoção de containers e crescimento da cadeia de suprimentos de software, informações que raramente aparecem em publicações acadêmicas.
+O levantamento bibliográfico foi conduzido nas bases de dados **IEEE Xplore**, **ACM Digital Library** e **Google Scholar**. IEEE Xplore e ACM Digital Library foram selecionadas por sua abrangência em periódicos e conferências revisados por pares; e Google Scholar, por sua amplitude e capacidade de localizar relatórios técnicos e dissertações relevantes. De forma complementar, foram considerados relatórios de mercado reconhecidos como os publicados por Sonatype e pela Cloud Native Computing Foundation (CNCF), por trazerem dados quantitativos sobre adoção de containers e crescimento da cadeia de suprimentos de software, informações que raramente aparecem em publicações acadêmicas.
 
 Os termos de busca utilizados, combinados por operadores booleanos, foram: *"software supply chain security"*, *"Docker image vulnerability scanning"*, *"container security"*, *"shift-left security"*, *"DevSecOps"*, *"Trivy"*, *"Grype"* e *"Clair"*. Adotou-se como recorte temporal o período **de 2020 a 2026**, justificado pelo crescimento exponencial dos ataques à cadeia de suprimentos de software observado desde 2020 (WILLIAMS; HAMER; ZAHAN, 2024) e pela consolidação, nesse intervalo, das ferramentas de escaneamento estudadas. Obras clássicas anteriores a 2020 foram admitidas excepcionalmente quando necessárias à fundamentação de conceitos estruturantes.
 
-Foram estabelecidos como **critérios de inclusão**: publicações em português ou inglês; artigos científicos, dissertações, teses ou relatórios técnicos de instituições reconhecidas; trabalhos com foco em segurança de containers, imagens Docker ou cadeia de suprimentos de software. Como **critérios de exclusão**: trabalhos sem revisão por pares (exceto relatórios de mercado de reconhecida credibilidade, como Sonatype e CNCF); estudos dedicados exclusivamente à segurança de runtime de containers, sem tratar de análise estática; e trabalhos duplicados.
+Foram estabelecidos como **critérios de inclusão**: publicações em português ou inglês; artigos científicos, dissertações, teses ou relatórios técnicos de instituições reconhecidas; trabalhos com foco em segurança de containers, imagens Docker ou cadeia de suprimentos de software. Como **critérios de exclusão**: trabalhos sem revisão por pares (exceto relatórios de mercado de reconhecida credibilidade); estudos dedicados exclusivamente à segurança de runtime de containers, sem tratar de análise estática; e trabalhos duplicados.
 
-A triagem dos estudos foi conduzida em três etapas sucessivas: (i) leitura de títulos e descarte dos claramente fora de escopo; (ii) leitura de resumos para avaliação de aderência temática; (iii) leitura integral dos estudos selecionados, com extração de dados estruturada. Para cada estudo incluído, foram registrados: autor e ano, objetivo, método, ferramentas analisadas, métricas reportadas e principais conclusões.
+A triagem dos estudos foi conduzida em três etapas sucessivas:
+(i) leitura de títulos e descarte dos claramente fora de escopo;
+(ii) leitura de resumos para avaliação de aderência temática;
+(iii) leitura integral dos estudos selecionados, com extração de dados estruturada.
 
-A análise e interpretação das informações seguiu abordagem **qualitativa-comparativa**, organizando os achados em três eixos temáticos alinhados aos objetivos específicos: (a) vetores de ataque à cadeia de suprimentos de software em imagens Docker; (b) comparação entre ferramentas de escaneamento quanto a cobertura de CVEs, integração com CI/CD e desempenho, a partir dos resultados empíricos reportados pelos autores revisados; e (c) consolidação de recomendações para adoção de ferramentas em diferentes perfis organizacionais. A síntese foi realizada por meio da identificação de convergências, divergências e lacunas entre os estudos, permitindo uma leitura integrada do corpus analisado.
+Para cada estudo incluído, foram registrados: autor e ano, objetivo, método, ferramentas analisadas, métricas reportadas e principais conclusões e lacunas identificadas. 

@@ -1,5 +1,12 @@
 # Objetivos - Roteiro
 
+<!--
+CONFERIR / MODIFICAR antes de entregar:
+- Objetivo geral: orientador questionou se haverá bibliografia para tema tão específico. Resposta fundamentada na Justificativa §5 — confirmar aceite.
+- Específicos: item prático (antigo "c) Executar testes práticos") REMOVIDO por orientação (2026-04-15). Restaram 3 itens (a, b, c). Confirmar que o corte foi aceito.
+- A pergunta de pesquisa exemplificada no roteiro (antes do "---") está DESATUALIZADA — mantida apenas como referência histórica. A versão vigente está na Introdução §5.
+-->
+
 ## Objetivo desta seção
 A seção de objetivos traduz o problema de pesquisa em metas concretas. O objetivo geral responde diretamente à pergunta de pesquisa; os objetivos específicos são os passos necessários para alcançá-lo.
 
@@ -43,10 +50,10 @@ Sugestões de eixos para seus objetivos específicos (escolha e adapte):
 
 ### Objetivo Geral
 
-Analisar, por meio de revisão bibliográfica, o estado da arte sobre detecção de vulnerabilidades em imagens Docker no contexto de shift-left security.
+Analisar, por meio de revisão bibliográfica, o estado da arte sobre Shift-left security com foco em tecnicas de detecção de vulnerabilidades em imagens Docker.
 
 ### Objetivos Específicos
 
 a) Analisar, a partir da literatura, os principais vetores de ataques à cadeia de suprimentos de software em imagens Docker.
-b) Comparar, com base em estudos empíricos publicados, as ferramentas de escaneamento de vulnerabilidades em imagens Docker (como Trivy, Grype e Clair) quanto a cobertura de CVEs, integração com CI/CD, desempenho e demais critérios reportados.
-c) Sintetizar recomendações para a adoção de ferramentas de escaneamento considerando diferentes perfis organizacionais, com base nas evidências encontradas na literatura revisada.
+b) Identificar, com base em estudos publicados, as tecnicas de detecção de vulnerabilidades em imagens Docker e os critérios utilizados.
+c) Sintetizar as lacunas identificadas na literatura revisada.
